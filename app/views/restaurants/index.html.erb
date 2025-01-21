@@ -1,7 +1,10 @@
-<h1><%= t("restaurants.index.title") %></h1>
+<div class="container">
+<h1><%= t "restaurants.index.title" %></h1>
 <%= link_to t("restaurants.index.add_restaurant"), new_restaurant_path %>
 <ul>
   <% @restaurants.each do |restaurant| %>
     <li><%= link_to restaurant.name, restaurant_path(restaurant) %></li>
+    <%= tag.time l(restaurant.created_at, format: :long), datetime: restaurant.created_at %>
   <% end %>
 </ul>
+</div>

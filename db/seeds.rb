@@ -8,8 +8,8 @@
   #     MovieGenre.find_or_create_by!(name: genre_name)
   #   end
   Restaurant.destroy_all
-  Restaurant.create(name: "La Tour d'Argent", address: "15 Quai de la Tournelle, 75005 Paris", phone_number: "01 43 54 23 31", category: "french")
-  Restaurant.create(name: "Le Meurice", address: "228 Rue de la Paix, 75008 Paris", phone_number: "01 42 68 18 18", category: "french")
+  Restaurant.create(name: "La Tour d'Argent", address: "15 Quai de la Tournelle, 75005 Paris", phone_number: "01 43 54 23 31", category: "french", created_at: Time.now)
+  Restaurant.create(name: "Le Meurice", address: "228 Rue de la Paix, 75008 Paris", phone_number: "01 42 68 18 18", category: "french", created_at: Time.now)
   Review.create(rating: 5, content: "Excellent restaurant", restaurant_id: 1)
   Review.create(rating: 4, content: "Good restaurant", restaurant_id: 2)
   Review.create(rating: 3, content: "Average restaurant", restaurant_id: 3)

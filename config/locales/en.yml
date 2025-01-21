@@ -9,3 +9,7 @@ en:
       add_restaurant: "Add a restaurant"
     new:
       add_restaurant: "Add a restaurant"
+
+  time:
+    formats:
+      long: "%Y-%m-%d %H:%M"

@@ -5,7 +5,7 @@ class CreateRestaurants < ActiveRecord::Migration[8.0]
       t.text :address
       t.integer :phone_number
       t.string :category
-
+      t.datetime :created_at
       t.timestamps
     end
   end
