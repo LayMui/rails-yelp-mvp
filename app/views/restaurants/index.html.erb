@@ -1,0 +1,7 @@
+<h1><%= t("restaurants.index.title") %></h1>
+<%= link_to t("restaurants.index.add_restaurant"), new_restaurant_path %>
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li><%= link_to restaurant.name, restaurant_path(restaurant) %></li>
+  <% end %>
+</ul>

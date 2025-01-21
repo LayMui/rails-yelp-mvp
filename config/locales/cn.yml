@@ -1,0 +1,11 @@
+
+cn:
+  global:
+    hello: "你好，世界"
+
+  restaurants:
+    index:
+      title: "餐厅"
+      add_restaurant: "添加餐厅"
+    new:
+      add_restaurant: "添加餐厅"
