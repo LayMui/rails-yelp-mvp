@@ -1,4 +1,8 @@
 <div class="container">
   <h1><%= @review.content %></h1>
   <p><%= @review.rating %></p>
+
+
+<%= link_to t("reviews.show.edit"), edit_review_path(@review) %>
+<%= link_to t("reviews.show.delete"), review_path(@review), method: :delete %>
 </div>

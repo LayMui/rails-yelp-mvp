@@ -5,9 +5,12 @@ class ApplicationController < ActionController::Base
     { locale: I18n.locale }
   end
 
+
   def set_locale
-    I18n.locale = extract_locale || I18n.default_locale
+    I18n.locale = params[:locale] || session[:locale] || I18n.default_locale
+    session[:locale] = I18n.locale
   end
+
 
   def extract_locale
     parsed_locale = params[:locale]

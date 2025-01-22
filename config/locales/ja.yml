@@ -1,0 +1,34 @@
+
+ja:
+  global:
+    hello: "こんにちは、世界"
+
+  restaurants:
+    index:
+      title: "レストラン"
+      add_restaurant: "レストランを追加"
+    new:
+      add_restaurant: "レストランを追加"
+    show:
+      edit: "編集"
+      delete: "削除"
+      add_review: "レビューを追加"
+    edit:
+      title: "レストランを編集"
+      update: "更新"
+  time:
+      formats:
+        long: "%Y年%m月%d日 %H:%M"
+  reviews:
+    new:
+      add_review: "レビューを追加"
+      new_review: "新レビュー"
+      show_review: "レビューを表示"
+    show:
+      review: "レビュー"
+    index:
+      title: "レビュー"
+    edit:
+      title: "レビューを編集"
+    destroy:
+      title: "レビューを削除"

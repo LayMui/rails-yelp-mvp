@@ -7,4 +7,9 @@
     <%= tag.time l(restaurant.created_at, format: :long), datetime: restaurant.created_at %>
   <% end %>
 </ul>
+
+<%= link_to "日本語", url_for(locale: :ja), class: "btn btn-primary" %>
+<%= link_to "中文", url_for(locale: :cn), class: "btn btn-primary" %>
+<%= link_to "English", url_for(locale: :en), class: "btn btn-primary" %>
+
 </div>

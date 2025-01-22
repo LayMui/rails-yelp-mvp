@@ -4,4 +4,10 @@
   <p><%= @restaurant.phone_number %></p>
   <p><%= @restaurant.category %></p>
   <%= link_to t("restaurants.show.add_review"), new_restaurant_review_path(@restaurant) %>
+
+
+<%= link_to t("restaurants.show.edit"), edit_restaurant_path(@restaurant) %>
+<%= link_to t("restaurants.show.delete"), restaurant_path(@restaurant), method: :delete %>
+
+
 </div>

@@ -13,10 +13,8 @@ Rails.application.routes.draw do
   # root "posts#index"
   # scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
   resources :restaurants do
-    resources :reviews, only: [ :new, :create ]
+    resources :reviews, only: [ :new, :create, :edit, :update, :destroy ]
   end
-  resources :reviews, only: [ :destroy ]
-  resources :reviews, only: [ :index ]
-  resources :reviews, only: [ :show ]
+  resources :reviews, only: [ :index, :show, :edit, :update, :destroy ]
 end
 # end

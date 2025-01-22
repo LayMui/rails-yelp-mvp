@@ -9,14 +9,24 @@ en:
       add_restaurant: "Add a restaurant"
     new:
       add_restaurant: "Add a restaurant"
-
+    show:
+      edit: "Edit"
+      delete: "Delete"
+      add_review: "Add a review"
+    edit:
+      title: "Edit restaurant"
+      update: "Update"
   time:
     formats:
       long: "%Y-%m-%d %H:%M"
   reviews:
     new:
       add_review: "Add a review"
+      new_review: "New review"
     show:
       review: "Review"
-    index:
-      title: "Reviews"
+
+    edit:
+      title: "Edit review"
+    destroy:
+      title: "Delete review"

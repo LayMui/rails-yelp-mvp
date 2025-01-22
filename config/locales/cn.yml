@@ -9,13 +9,25 @@ cn:
       add_restaurant: "添加餐厅"
     new:
       add_restaurant: "添加餐厅"
+    show:
+      edit: "编辑"
+      delete: "删除"
+      add_review: "添加评论"
+    edit:
+      title: "编辑餐厅"
+      update: "更新"
   time:
       formats:
         long: "%Y年%m月%d日 %H:%M"
   reviews:
     new:
       add_review: "添加评论"
+      new_review: "新评论"
     show:
       review: "评论"
     index:
       title: "评论"
+    edit:
+      title: "编辑评论"
+    destroy:
+      title: "删除评论"
