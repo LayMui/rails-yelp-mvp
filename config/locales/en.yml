@@ -13,3 +13,10 @@ en:
   time:
     formats:
       long: "%Y-%m-%d %H:%M"
+  reviews:
+    new:
+      add_review: "Add a review"
+    show:
+      review: "Review"
+    index:
+      title: "Reviews"

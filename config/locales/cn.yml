@@ -12,3 +12,10 @@ cn:
   time:
       formats:
         long: "%Y年%m月%d日 %H:%M"
+  reviews:
+    new:
+      add_review: "添加评论"
+    show:
+      review: "评论"
+    index:
+      title: "评论"
